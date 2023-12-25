@@ -1,0 +1,100 @@
+/* MainContainer.module.css */
+
+.homeContainer {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .leftSection {
+    /* display: flex;
+    flex-direction: column; */
+    padding: 20px;
+    padding-top: 90px;
+    width: 50%;
+
+  }
+  
+  .heading {
+    font-size: 70px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+  }
+  
+  .introText {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #545454;
+
+  }
+  .getStartedSection{
+    display: flex;
+    justify-content: space-between;
+    width: 31.25rem;
+  }
+  
+  .button {
+    background: #000;
+
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border: none;
+outline: none;
+border-radius: 30px;
+width: 160px;
+height: 50px;
+font-size: 18px;
+font-weight: 500;
+
+  }
+  .arrowIcon{
+    font-size: 25px;
+    position: relative;
+    left: 9px;
+  }
+  
+  .imageContainer img{
+       border-radius: 50%;
+       width: 40px;
+    
+  }
+  
+  .image {
+    width: 30%;
+    border-radius: 8px;
+  }
+  
+  .sectionHeading {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  .sectionText {
+    font-size: 20px;
+    color: #545454;
+  }
+  .magazineContainer{
+    display: flex;
+    width: 31.25rem;
+    justify-content: space-between;
+    align-items: baseline;
+
+  }
+  .magazineImg{
+    width: 100px;
+  }
+  
+  
+  .rightSection {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .bigImage {
+    width: 85%;
+    border-radius: 8px;
+  }
+  

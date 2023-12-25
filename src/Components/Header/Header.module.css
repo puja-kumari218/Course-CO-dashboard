@@ -1,0 +1,49 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar img{ 
+    width: 50px;
+}
+
+.navbar h1 {
+    display: inline-block;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.navLinks{
+   display: flex;
+   width: 500px;
+   align-items: center;
+   justify-content: space-evenly;
+   
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#signInBtn {
+border: none;
+outline: none;
+background: #000;
+color: #fff;
+border-radius: 30px;
+width: 100px;
+height: 50px;
+font-size: 18px;
+font-weight: 500;
+
+
+}
