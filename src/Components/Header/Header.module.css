@@ -10,13 +10,17 @@
 }
 
 .navbar img{ 
-    width: 50px;
+    width: 90px;
+    margin-top: 15px;
+
 }
 
 .navbar h1 {
-    display: inline-block;
-    margin-left: 20px;
-    align-items: center;
+    /* display: inline-block; */
+    margin-right: 49px;
+    /* align-items: center; */
+    margin-top: 35px;
+
 }
 
 .navLinks{
@@ -39,11 +43,11 @@ border: none;
 outline: none;
 background: #000;
 color: #fff;
-border-radius: 30px;
+border-radius: 28px;
 width: 100px;
 height: 50px;
 font-size: 18px;
 font-weight: 500;
-
+margin-top: 35px;
 
 }

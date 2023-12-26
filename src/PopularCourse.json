@@ -1,0 +1,24 @@
+{
+    "courseArray": [
+      {
+        "courseIcon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTupdPidkpAWQBYf-nJZRZKnO46vyTQbOgssLPVAJUIlXy4QoKo",
+        "courseBgColor": "white",
+        "courseTitle": "UI Design Landing Page",
+        "courseDescription": "In our basic exploration UI/UX design course, you'll learn the fundamentals of Ul and UX design, including how to create wireframes, design prototypes, and conduct user research."
+      },
+      {
+        "courseIcon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSppkoKsaYMuIoNLDH7O8ePOacLPG1mKXtEng&usqp=CAU",
+
+        "courseBgColor": "lightgreen",
+        "courseTitle": "HTML and JavaScript",
+        "courseDescription": "You'll learn how to create web pages from scratch, style them with CSS, and add interactivity with JavaScript."
+      },
+      {
+        "courseIcon": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSyiJDn4O2e4z62yul7TVSrOuN9mmqvd6gDlq_iCNTvo-u_66IB",
+        "courseBgColor": "white",
+        "courseTitle": "Basic Flat Illustration",
+        "courseDescription": "With expert guidance and practical tips, you'll gain the skills you need to create stunning flat illustrations that stand out from the crowd."
+      }
+    ]
+  }
+  

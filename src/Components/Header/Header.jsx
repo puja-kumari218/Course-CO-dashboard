@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className={styles.headerContainer}>
             <nav className={styles.navbar}>
-                <img src="https://static-00.iconduck.com/assets.00/google-icon-1024x1024-hv1t7wtt.png" alt="Description of the image" />
+                <img src="CourseCologo.png" alt="Description of the image" />
                 <h1>CourseCo</h1>
             </nav>
             <div className={styles.navLinks}>

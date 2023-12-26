@@ -1,0 +1,67 @@
+/* LearnCourseCo.module.css */
+
+.learnCourseCoContainer {
+    display: flex;
+    position: absolute;
+    left: 250px;
+    background-color: #a3a3f5;
+    color: white;
+    border-radius: 40px;
+    width: 1050px;
+    padding-top: 50px;
+    height: 500px;
+    margin-bottom: 20px;
+
+  }
+  
+  .learnCourseCoLeftSection img {
+    width: 400px;
+    position: relative;
+    top: 55px;
+    border-bottom-left-radius: 40px;
+    height: 395px;
+  }
+  
+  .learnCourseCoRightSection {
+    padding: 20px;
+
+  }
+  
+  .learnCourseCoRightSection h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .learnCourseCoRightSection p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* .checkIcons {
+    display: flex;
+    gap: 20px;
+  } */
+  
+  .checkIcon {
+    display: flex;
+    /* justify-content: center; */
+  }
+
+  .checkIcon p {
+    font-size: 20px;
+  }
+  
+  .checkCircleIcon {
+    margin-right: 10px;
+  }
+  
+  /* .horizontalLine {
+    border: 1px solid white;
+    width: 100%;
+    margin: 20px 0;
+  } */
+  
+  .smallImage {
+    width: 50px; /* Adjust as needed */
+  }
+  

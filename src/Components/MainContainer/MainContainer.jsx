@@ -4,7 +4,9 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import styles from './MainContainer.module.css';
 import Curriculum from '../Curriculum/Curriculum';
 import PopularCourses from '../PopularCourses/PopularCourses';
-
+import LearnCourseCo from '../LearnCourseCo/LearnCourseCo';
+import SkillBuildingSection from '../SkillBuildingSection/SkillBuildingSection';
+import Footer from '../Footer/Footer';
 const MainContainer = () => {
   return (
     <>
@@ -52,7 +54,10 @@ const MainContainer = () => {
       </div>
       {/* Curriculum Container */}
       <Curriculum />
-      {/* <PopularCourses/> */}
+      <PopularCourses/>
+      <LearnCourseCo/>
+      <SkillBuildingSection/>
+      <Footer/>
     </>
   );
 };

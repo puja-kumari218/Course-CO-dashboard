@@ -1,0 +1,78 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 40px;
+    width: 1050px;
+    height: 500px;
+    /* justify-content: center;
+    position: absolute; */
+    /* padding-top: 50px;
+    margin-bottom: 20px; */
+    right: 1000px;
+  }
+  
+  .footerContent {
+    /* display: flex; */
+    justify-content: center;
+    padding: 50px;
+    /* align-items: center; */
+  }
+  
+  .centerContent {
+    text-align: center;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .emailInput {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 60px;
+    border: 1px solid #fff;
+    width: 300px;
+  }
+  
+  .subscribeBtn {
+    background-color: #151414;
+    color: #f9f3f3;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 60px;
+    cursor: pointer;
+  }
+  
+  .arrowIcon {
+    margin-left: 5px;
+    color: #a3a3f5;
+    font-size: 25px;
+  }
+  
+  .rightContent {
+    display: flex;
+    /* align-items: center; */
+  }
+  
+  .logo {
+    width: 70px; /* Adjust as needed */
+  }
+  
+  .footerNav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footerNav li {
+    margin-right: 20px;
+  }
+  
+  .copyRight {
+    text-align: center;
+    margin-top: 160px;
+  }
+  

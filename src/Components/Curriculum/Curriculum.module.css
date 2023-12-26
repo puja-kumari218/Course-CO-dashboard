@@ -48,14 +48,9 @@ font-weight: 500;
   /* card css */
 
 
-.curriculumCardContainer {
-    display: flex;
-    padding: 20px;
-
-  }
   .curriculumCardImg{
-    width: 30% !important;
-    height: auto; 
+    width: 90px !important;
+    height: 90px; 
     padding: 20px !important;
 
   }
@@ -64,32 +59,34 @@ font-weight: 500;
 
   
   .leftCard {
-    width: 18rem !important;
-    margin-right: 40px ; 
+    width: 27rem !important;
     background: #aee5ff !important;
-    border-radius: 15px !important;
+    border-radius: 25px !important;
     outline: none !important;
-  
-
-  }
+  padding: 10px;
+position: relative;
+right: 50px; 
+ }
   
   .rightCard {
-    width: 24rem;
-    margin-left: 70px; 
+    width: 48rem !important;
     background: #c3ffd2 !important;
-    border-radius: 15px !important;
+    border-radius: 25px !important;
     outline: none !important;
+    position: relative;
+right: 30px; 
+
 
 
   }
   
   .curriculumCardTitle {
-    font-size: 1.5rem; 
+    font-size: 1.7rem !important; 
     margin-bottom: 10px;
   }
   
   .curriculumCardText {
-    font-size: 1rem; 
+    font-size: 1.3rem; 
   }
   
   
@@ -98,6 +95,9 @@ font-weight: 500;
 .additionalComponent {
     margin-top: 20px; 
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .leftHeading {
@@ -106,27 +106,33 @@ font-weight: 500;
   }
   
   .rightButtons {
-    float: right;
+    /* float: right; */
+    /* position: relative;
+    right: 80px; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
 
   }
   
   .additionalButton {
-    background: #302f2f;
+    background: #a6a3a3;
 margin-right: 10px;
-    color: #fff;
+    color: #1c1b1b;
     border: none;
     cursor: pointer;
     border: none;
 outline: none;
 border-radius: 30px;
-width: 190px;
-height: 30px;
-font-size: 18px;
-font-weight: 100;
+/* width: 190px;
+height: 30px; */
+font-size: 20px;
+font-weight: 500;
+padding: 12px 25px;
   }
   
   .horizontalLine {
-    margin-top: 90px; 
+    /* margin-top: 90px;  */
     border: 1px solid #000; 
   }
   

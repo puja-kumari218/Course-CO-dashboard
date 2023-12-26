@@ -8,9 +8,10 @@ import curriculum from "../../Curriculum.json";
 const AdditionalComponent = () => {
 
     return (
+      <>
         <div className={styles.additionalComponent}>
           <div className={styles.leftHeading}>
-            <h2>Our Featrures<br/>Special For You</h2>
+            <h2>Our Features<br/>Special For You</h2>
           </div>
           <div className={styles.rightButtons}>
             <button className={styles.additionalButton}>Get Certifivate</button>
@@ -18,8 +19,11 @@ const AdditionalComponent = () => {
             <button className={styles.additionalButton}>Lifetime Support</button>
             <button className={styles.additionalButton}>Video Lession</button>
           </div>
-          <hr className={styles.horizontalLine} />
+          <br/>
+        
         </div>
+          <hr className={styles.horizontalLine} />
+          </>
       );
     };
     
@@ -59,7 +63,7 @@ const Curriculum = () => {
             </div>
 
             
-            <div style={{ display: "flex" }}>
+            <div style={{ display: "flex", justifyContent: "space-around" }}>
   {curriculumData.map((data, index) => {
     return (
       <Card key={index} className={index % 2 === 0 ? styles.leftCard : styles.rightCard}>
