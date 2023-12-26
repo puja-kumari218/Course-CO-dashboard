@@ -2,7 +2,7 @@
     "skillBuildingArray": [
       {
         "skillBuildingIcon": "https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-4-512.png",
-        "skillBuildingText":"Grade",
+        "skillBuildingText":"Grade 2 Student",
         "skillBuildingTitle": "Bessie Cooper",
         "skillBuildingDescription": "You'll learn how to create web pages from scratch, style them with CSS, and add interactivity with JavaScript.",
         "skillType":"Illustration",
@@ -10,18 +10,18 @@
       },
       {
         "skillBuildingIcon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoD6Rqkbc6nQOa61HRxAbFztjWaOzPXxhYwT88c_GcZaHd7ldjAVC1g7MmFNlZdGVbn44&usqp=CAU",
-        "skillBuildingText":"Grade",
+        "skillBuildingText":"Grade 1 Student",
 
         "skillBuildingTitle": "Kristin Waston",
         "skillBuildingDescription": "You'll learn how to create web pages from scratch, style them with CSS, and add interactivity with JavaScript.",
         "skillType":"ui/ux",
-        "skillName":"UI lANDING Page"
+        "skillName":"UI Landing Page"
 
 
       },
       {
         "skillBuildingIcon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCTH1xoyzECsEK86b-pd3NwxRiy-WzLZV2Y9hozwitjygowuyHsP_TWSopNMDgEJy8j8&usqp=CAU",
-        "skillBuildingText":"Grade",
+        "skillBuildingText":"Grade 3 Student",
 
         "skillBuildingTitle": "Ronax Bright",
         "skillBuildingDescription": "You'll learn how to create web pages from scratch, style them with CSS, and add interactivity with JavaScript.",
@@ -32,7 +32,7 @@
       },
       {
       "skillBuildingIcon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFhSnoly9J1ySaRA45scYB4Q1otdhWAXtLlg&usqp=CAU",
-      "skillBuildingText":"Grade",
+      "skillBuildingText":"Grade 2 Student",
 
       "skillBuildingTitle": "Ralph Edwards",
       "skillBuildingDescription": "You'll learn how to create web pages from scratch, style them with CSS, and add interactivity with JavaScript.",

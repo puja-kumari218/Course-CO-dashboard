@@ -10,13 +10,13 @@
   }
   
   .skillBuildingHeaderContainer h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #302f2f;
     font-weight: bold;
   }
   
   .skillBuildingHeaderContainer p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #282626;
     font-weight: 200;
   }
@@ -26,8 +26,16 @@
     gap: 18px;
     justify-content: center;
   }
-  
+  .skillCardText1{
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+    right: 29px;
+    
+  }
   .skillCard {
+    display: flex;
+    justify-content: space-between;
     width: 300px;
     border-radius: 15px;
     overflow: hidden;
@@ -41,31 +49,34 @@
   
   .cardContent {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+  }
+
+  .skillBuildingDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
   }
   
-  .cardLeft {
+  /* .cardLeft {
     flex: 1;
-  }
+  } */
   
   .skillCardIcon {
     padding: 20px;
-    border-radius: 60%;
-    width: 110px;
+    border-radius: 50%;
+    width: 110px !important;
   }
   
-  
-  .skillCardTitle {
-    font-size: 1rem;
-    
-  
-    /* margin-bottom: 100px; */
-  }
-  
-  .skillCardRating {
+  .skillCardHeader{
     display: flex;
-    justify-content: flex-start;
-    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .skillCardTitle {
+    font-size: 1.5rem !important;
+    /* margin-bottom: 100px; */
   }
   
   .starIcon {
@@ -76,7 +87,7 @@
   .skillName {
     /* font-size: 14px; */
     color: #131313;
-    margin-bottom: 10px;
+    margin: 13px 0;
     font-size: 1rem;
     font-weight: bold;
   }
@@ -87,13 +98,13 @@
     border: none;
     cursor: pointer;
     border-radius: 9px;
-    padding: 8px 15px;
-    font-size: 10px;
-    font-weight: 300;
+    padding: 8px 14px;
+    font-size: 15px;
+    font-weight: 400;
     transition: background 0.3s ease-in-out;
   }
   
   .skillCardBtn:hover {
-    background: #000;
+    background: #7e7ef6;
   }
   

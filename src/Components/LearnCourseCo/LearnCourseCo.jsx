@@ -33,7 +33,6 @@ const LearnCourseCo = () => {
                         </p>
                     </div>
                 </div>
-                <img src="additionalImage.png" alt="Additional Image" />
             </div>
         </div>
     );

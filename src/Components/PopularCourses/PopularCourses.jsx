@@ -13,7 +13,7 @@ const PopularCourses = () => {
         <h2>Popular Courses</h2>
         <div className={styles.searchBar}>
           <div className={styles.searchCourse}>
-          <FaMagnifyingGlass className={styles.searchIcon}  style={{fontSize: "40px"}}/>
+          <FaMagnifyingGlass className={styles.searchIcon}  style={{fontSize: "60px"}}/>
 
             {/* <FaSearch className={styles.searchIcon}  style={{fontSize: "50px"}} /> */}
           <input type="text" placeholder="Course Name" className={styles.searchInput} />
@@ -32,33 +32,39 @@ const PopularCourses = () => {
       <div style={{ display: "flex" }} 
        className={styles.courseContainer}>
         {coursesData.courseArray.map((data, index) => (
-          <Card key={index} className={styles.coursesCard} style={{ backgroundColor: data.courseBgColor }}>
+          <Card key={index} className={styles.coursesCard} style={{ backgroundColor: data.courseBgColor, borderRadius: "30px" }}>
 
             <div className={styles.courseHeader}>
             <Card.Img className={styles.courseCardImg} variant="top" src={data.courseIcon} />
            
               <div className={styles.cardTopSection}>
-                <button className={styles.topBtn}>UI/UX</button>
+                <button className={styles.topBtn}  style={{backgroundColor:data.cousesCategoryColor, color: "black", fontSize: "12px"}}>{data.cousesCategory}</button>
+
                 <Card.Title className={styles.courseCardTitle}>{data.courseTitle}</Card.Title>
               </div>
               </div>
-              <Card.Body className={styles.courseDetailContainer}>
-              <Card.Text className={styles.courseCardText}>{data.courseDescription}</Card.Text>
-              <div className={styles.cardBottomSection}>
+              <Card.Body className={styles.courseDetailContainer} style={index % 2 === 0 ? { gap: "40px" } : {gap: "20px"}}>
+              <Card.Text className={styles.courseCardText} style={index % 2 !== 0 ? { marginTop: "40px" } : {marginTop: "30px"}}>{data.courseDescription}</Card.Text>
+              <div className={styles.cardBottomSection} style={index % 2 !== 0 ? { marginTop: "40px" } : {}}>
                <div>
-               <button className={styles.bottomBtn}>
-                  <FaUser className={styles.btnIcon} />
-                  User
+                {/* Heydetya btn */}
+               <button className={styles.HeydetyaBtn}>
+                  <FaUser className={styles.HeydetyaBtn1} />
+                  Heydetya
                 </button>
+                                {/* rating button */}
+
                 <button className={styles.bottomBtn}>
                   <FaStar className={styles.btnIcon} />
-                  4.8
-                </button>
+                  <span>4.8</span>
+                 </button>
+
                </div>
+
                <div>
                <span className={styles.leftText}>$135.00</span>
                 <button className={styles.joinNowBtn}>
-                  Join Now <FaArrowRight className={styles.btnIcon} />
+                  Join Now <FaArrowRight className={styles.btnIcon2} />
                 </button>
 
                </div>

@@ -3,8 +3,6 @@
     padding: 20px;
   }
   
-  /* Heading Styles */
-
   .searchSection{
     display: flex;
     flex-direction: column;
@@ -18,16 +16,14 @@
     text-align: center;
   }
   
-/* Add or modify these styles in your PopularCourses.module.css */
-
 .searchBar {
     display: flex;
     align-items: center;
-    background-color: #d7d1d1;
-    border: 1px solid #ccc;
-    border-radius: 50px;
-    padding: 10px;
-    width: 32.3rem;
+    background-color:#f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 60px;
+    padding: 9px;
+    width: 31.3rem;
     justify-content: center;
   }
   .searchCourse{
@@ -47,9 +43,8 @@
   .searchInput {
     border: none;
     outline: none;
-    background-color: #d7d1d1;
+    background-color:#f1f1f1;
     padding: 5px;
-    height:auto;
   }
   
   .verticalLine {
@@ -71,7 +66,7 @@
   .userInfo {
     margin-right: 10px;
     color: #555;
-    font-size: 18px;
+    font-size: 15px;
 
   }
   
@@ -103,27 +98,46 @@ left: 30px;
     margin-top: 50px;
 justify-content: center;  }
 
-  .coursesCard{
+  .coursesCard {
     border-radius: 20px;
     width: 340px;
     padding: 20px;
     outline: none;
     border: 1px solid rgb(209, 209, 209);
   }
-  .courseHeader{
+  .courseHeader {
     display: flex;
     justify-content: space-between;
   }
+
+  .courseCardTitle{
+    width: 100px;
+    position: relative;
+     left: 100px;
+     top: 9px;
+     /* display: flex; */
+     /* flex-direction: column; */
+     align-items: flex-end;
+
+  }
+
+  .cardTopSection:nth-child(3) {
+    position: relative !important;
+    left: 200px !important;
+  }
+
   
   .courseDetailContainer{
     display: flex;
     flex-direction: column;
+ 
 
   }
   .cardBottomSection{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+ 
   }
 
   .cardBottomSection div {
@@ -136,18 +150,81 @@ justify-content: center;  }
     margin-bottom: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
+    border-radius: 60px;
+    /* overflow: hidden;
+    transition: transform 0.5s ease-in-out; */
   }
-  
-  .card:hover {
-    transform: scale(1.05);
+  .topBtn{
+    background-color: #0d559c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 10px;
+    margin-left: 120px;
+    /* display: flex; */
+    /* align-items: center; */
+    font-size: 8px;
+/* position: relative;  */
+left: 30px;
+
+    
   }
-  
+  /* ratting card */
+  .bottomBtn{
+    background-color: #ffebc4;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    align-items: center;
+
+  }
+
+  .bottomBtn span{
+    color: #0f1010;
+  }
+  .btnIcon{
+    color: #f5a505;
+    padding: 2px 1px;
+font-size: 14px;  
+}
+/* Heydwtya btn */
+.HeydetyaBtn{
+  background-color: #d9f7ff;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 12px;
+  align-items: center;
+  /* position: relative; */
+
+}
+.HeydetyaBtn1{
+  color: #43a7ff;
+  padding: 1.5PX;
+  font-size: 12px;
+
+
+}
+.leftText{
+  font-weight: bold;
+}
+
+  .joinNowBtn{
+    background-color: #a3a3f5;
+    color: #ffffff;
+    border: none;
+    border-radius: 18px;
+    padding: 10px 12px;
+    font-size: 12px;
+    align-items: center;
+    }
+    
   .courseCardImg {
-    width: 50px !important;
-    height: 90px;
+    width: 60px !important;
+    height: 80px;
     border-radius: 10px;
   }
   
@@ -200,10 +277,10 @@ justify-content: center;  }
 outline: none;
 border-radius: 30px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
   }
   
   .viewAllButton:hover {
     background-color: #313232;
   }
-  
+

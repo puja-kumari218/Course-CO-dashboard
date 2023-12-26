@@ -27,19 +27,27 @@ const SkillBuildingSection = () => {
       <div className={styles.skillBuildingCardContainer}>
         {skillBuilding.map((skill, index) => (
           <Card key={index} className={styles.skillCard} style={{ backgroundColor: skill.skillBuildingBgColor }}>
+           <div className={styles.skillCardHeader}>
             <Card.Img className={styles.skillCardIcon} variant="top" src={skill.skillBuildingIcon} />
+            <div>
+            <Card.Title className={styles.skillCardTitle}>{skill.skillBuildingTitle}</Card.Title>
+            <Card.Text className={styles.skillCardText1}>{skill.skillBuildingText}</Card.Text>
+            </div>
+           </div>
             <Card.Body>
-              <Card.Title className={styles.skillCardTitle}>{skill.skillBuildingTitle}</Card.Title>
+              
               {/* <Card.Title className={styles.skillCardTitle}>{skill.skillBuildingTitle}</Card.Title> */}
               {[...Array(5)].map((_, i) => (
-                  <FaStar key={i} className={styles.starIcon} />
+                  <FaStar key={i} className={styles.starIcon} style={{position: "relative", right: "80px",marginBottom:"10px"}} />
                 ))}
 
-              <Card.Text className={styles.skillCardText}>{skill.skillBuildingDescription}</Card.Text>
+             <div className={styles.skillBuildingDetails}>
+             <Card.Text className={styles.skillCardText} style={{marginBottom: "20px"}}>{skill.skillBuildingDescription}</Card.Text>
               <div className={styles.skillCardRating}>
               </div>
               <button className={styles.skillCardBtn}>{skill.skillType}</button>
               <p className={styles.skillName}>{skill.skillName}</p>
+             </div>
 
             </Card.Body>
           </Card>

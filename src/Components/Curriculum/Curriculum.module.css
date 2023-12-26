@@ -1,138 +1,141 @@
-.curriculumContainer{
-    padding: 20px;
+.curriculumContainer {
+  padding: 20px;
 
 }
-.curriculumHeaderContainer{
-    display: flex;
-    justify-content: space-around;
+
+.curriculumHeaderContainer {
+  display: flex;
+  justify-content: space-around;
 }
 
-.leftCurriculumHeaderSection{
-    position: relative;
-    right: 80px;
+.leftCurriculumHeaderSection {
+  position: relative;
+  right: 80px;
 }
 
-.leftCurriculumHeaderSection h1{
-    font-size: 55px;
-    font-weight: bold;
+.leftCurriculumHeaderSection h1 {
+  font-size: 55px;
+  font-weight: bold;
 }
 
 .rightCurriculumHeaderSection p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 
 .button {
-    background: #000;
+  background: #000;
 
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 30px;
-    border: none;
-outline: none;
-border-radius: 30px;
-width: 160px;
-height: 50px;
-font-size: 18px;
-font-weight: 500;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  width: 160px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
 
-  }
-  .arrowIcon{
-    font-size: 25px;
-    position: relative;
-    left: 9px;
-  }
+}
 
-
-  /* card css */
+.arrowIcon {
+  font-size: 25px;
+  position: relative;
+  left: 9px;
+}
 
 
-  .curriculumCardImg{
-    width: 90px !important;
-    height: 90px; 
-    padding: 20px !important;
-
-  }
+/* card css */
 
 
+.curriculumCardImg {
+  width: 90px !important;
+  height: 90px;
+  padding: 20px !important;
 
-  
-  .leftCard {
-    width: 27rem !important;
-    background: #aee5ff !important;
-    border-radius: 25px !important;
-    outline: none !important;
+}
+
+
+
+
+.leftCard {
+  width: 27rem !important;
+  background: #aee5ff !important;
+  border-radius: 25px !important;
+  outline: none !important;
   padding: 10px;
-position: relative;
-right: 50px; 
- }
-  
-  .rightCard {
-    width: 48rem !important;
-    background: #c3ffd2 !important;
-    border-radius: 25px !important;
-    outline: none !important;
-    position: relative;
-right: 30px; 
+  position: relative;
+  right: 50px;
+}
+
+.rightCard {
+  width: 48rem !important;
+  background: #c3ffd2 !important;
+  border-radius: 25px !important;
+  outline: none !important;
+  position: relative;
+  right: 30px;
 
 
 
-  }
-  
-  .curriculumCardTitle {
-    font-size: 1.7rem !important; 
-    margin-bottom: 10px;
-  }
-  
-  .curriculumCardText {
-    font-size: 1.3rem; 
-  }
-  
-  
-  /* additional css */
+}
+
+.curriculumCardTitle {
+  font-size: 1.7rem !important;
+  margin-bottom: 10px;
+}
+
+.curriculumCardText {
+  font-size: 1.3rem;
+}
+
+
+/* additional css */
 
 .additionalComponent {
-    margin-top: 20px; 
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .leftHeading {
-    float: left;
-    padding: 20px;
-  }
-  
-  .rightButtons {
-    /* float: right; */
-    /* position: relative;
-    right: 80px; */
-    display: flex;
-    justify-content: space-evenly;
-    width: 1200px;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  }
-  
-  .additionalButton {
-    background: #a6a3a3;
-margin-right: 10px;
-    color: #1c1b1b;
-    border: none;
-    cursor: pointer;
-    border: none;
-outline: none;
-border-radius: 30px;
-/* width: 190px;
+.leftHeading {
+  float: left;
+  padding: 20px;
+}
+
+.rightButtons {
+  /* float: right; */
+  /* position: relative;
+    right: 80px; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 1200px;
+
+}
+
+.additionalButton {
+  background: #f1f1f1;
+  margin-right: 10px;
+  color: #1c1b1b;
+  border: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  /* width: 190px;
 height: 30px; */
-font-size: 20px;
-font-weight: 500;
-padding: 12px 25px;
-  }
-  
-  .horizontalLine {
-    /* margin-top: 90px;  */
-    border: 1px solid #000; 
-  }
-  
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 25px;
+}
+
+.horizontalLine {
+  /* margin-top: 90px;  */
+  border: 1px solid #000000;
+  width: 1350px;
+  margin-left: 50px;
+}
