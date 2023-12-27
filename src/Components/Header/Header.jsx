@@ -10,10 +10,10 @@ const Header = () => {
                 <h1>CourseCo</h1>
             </nav>
             <div className={styles.navLinks}>
-                <Link to="/home">Home</Link>
-                <Link to="/course">Course</Link>
-                <Link to="/community">Community</Link>
-                <Link to="/about">About</Link>
+                <Link to="/">Home</Link>
+                <Link to="/">Course</Link>
+                <Link to="/">Community</Link>
+                <Link to="/">About</Link>
             </div>
             <button id={styles.signInBtn}>Sign In</button>
 

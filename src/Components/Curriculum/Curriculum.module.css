@@ -14,12 +14,20 @@
 }
 
 .leftCurriculumHeaderSection h1 {
-  font-size: 55px;
+  font-size: 51px;
   font-weight: bold;
+  position: relative;
+  left: 80px;
+  letter-spacing: 1px;
+}
+.rightCurriculumHeaderSection{
+  position: relative;
+  right: 10px;
 }
 
 .rightCurriculumHeaderSection p {
-  font-size: 20px;
+  font-size: 18px;
+
 }
 
 
@@ -33,7 +41,7 @@
   border: none;
   outline: none;
   border-radius: 30px;
-  width: 160px;
+  width: 180px;
   height: 50px;
   font-size: 18px;
   font-weight: 500;
@@ -41,9 +49,9 @@
 }
 
 .arrowIcon {
-  font-size: 25px;
+  font-size: 30px;
   position: relative;
-  left: 9px;
+  left: 20px;
 }
 
 
@@ -65,18 +73,22 @@
   background: #aee5ff !important;
   border-radius: 25px !important;
   outline: none !important;
-  padding: 10px;
+  border: none !important;
+  padding: 20px;
   position: relative;
-  right: 50px;
+  left: 6px;
 }
 
 .rightCard {
-  width: 48rem !important;
+  width: 36rem !important;
   background: #c3ffd2 !important;
   border-radius: 25px !important;
   outline: none !important;
+  border: none !important;
   position: relative;
-  right: 30px;
+  right: 10px !important;
+  padding: 20px;
+
 
 
 
@@ -85,6 +97,7 @@
 .curriculumCardTitle {
   font-size: 1.7rem !important;
   margin-bottom: 10px;
+  width: 370px;
 }
 
 .curriculumCardText {
@@ -103,8 +116,12 @@
 }
 
 .leftHeading {
-  float: left;
-  padding: 20px;
+  /* float: left;
+  padding: 20px; */
+  width: 28rem;
+  position: relative;
+  left: 20px;
+  
 }
 
 .rightButtons {
@@ -136,6 +153,7 @@ height: 30px; */
 .horizontalLine {
   /* margin-top: 90px;  */
   border: 1px solid #000000;
-  width: 1350px;
+  width: 1020px;
   margin-left: 50px;
 }
+

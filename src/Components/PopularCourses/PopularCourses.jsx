@@ -40,11 +40,11 @@ const PopularCourses = () => {
               <div className={styles.cardTopSection}>
                 <button className={styles.topBtn}  style={{backgroundColor:data.cousesCategoryColor, color: "black", fontSize: "12px"}}>{data.cousesCategory}</button>
 
-                <Card.Title className={styles.courseCardTitle}>{data.courseTitle}</Card.Title>
+                <Card.Title className={styles.courseCardTitle}  style={index === 0? {letterSpacing: "1px", fontSize: "18px", fontWeight: "bold", position: "relative", width:"110px"} : {letterSpacing: "1.6px", fontSize: "18px", fontWeight: "bold", position: "relative", left: "50px", width: "110px"}}>{data.courseTitle}</Card.Title>
               </div>
               </div>
-              <Card.Body className={styles.courseDetailContainer} style={index % 2 === 0 ? { gap: "40px" } : {gap: "20px"}}>
-              <Card.Text className={styles.courseCardText} style={index % 2 !== 0 ? { marginTop: "40px" } : {marginTop: "30px"}}>{data.courseDescription}</Card.Text>
+              <Card.Body className={styles.courseDetailContainer}>
+              <Card.Text className={styles.courseCardText} >{data.courseDescription}</Card.Text>
               <div className={styles.cardBottomSection} style={index % 2 !== 0 ? { marginTop: "40px" } : {}}>
                <div>
                 {/* Heydetya btn */}
@@ -63,12 +63,13 @@ const PopularCourses = () => {
 
                <div>
                <span className={styles.leftText}>$135.00</span>
-                <button className={styles.joinNowBtn}>
-                  Join Now <FaArrowRight className={styles.btnIcon2} />
+                <button className={styles.joinNowBtn} style={index % 2 === 0 ? {backgroundColor: "#f1f1f1", color: "black"} : {backgroundColor: "violet", color: "white"} }>
+                  Join Now <FaArrowRight className={styles.btnIcon2}  />
                 </button>
 
                </div>
               </div>
+
 
             </Card.Body>
           </Card>

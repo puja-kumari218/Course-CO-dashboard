@@ -3,11 +3,11 @@
 .learnCourseCoContainer {
     display: flex;
     position: absolute;
-    left: 250px;
+    left: 210px;
     background-color: #a3a3f5;
     color: white;
     border-radius: 40px;
-    width: 1050px;
+    width: 1070px;
     padding-top: 50px;
     height: 500px;
     margin-bottom: 20px;
